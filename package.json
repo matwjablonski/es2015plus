@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "karma start"
+    "test": "jasmine"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/matwjablonski/es2015plus/issues"
   },
-  "homepage": "https://github.com/matwjablonski/es2015plus#readme"
+  "homepage": "https://github.com/matwjablonski/es2015plus#readme",
+  "devDependencies": {
+    "jasmine": "^4.0.1"
+  }
 }

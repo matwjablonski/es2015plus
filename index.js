@@ -29,7 +29,7 @@ const citiesWithMoreThanThreeMilionsPopulation = citiesAsObjects.filter(city => 
 
 // some 
 
-const isSomeCityPopulationLessThenThree = citiesAsObjects.some(city => city.population < 3);
+const isSomeCityPopulationLessThen = (testedPopulation) => citiesAsObjects.some(city => city.population < testedPopulation)
 
 // find 
 
@@ -37,4 +37,9 @@ const cityWithMoreThanThreeMilionsPopulation = citiesAsObjects.find(city => city
 
 // reduce
 
-const totalPopulation = citiesAsObjects.reduce((prev, curr) => prev + curr.population, 0);
+const getTotalPopulationOfCities = () => citiesAsObjects.reduce((prev, curr) => prev + curr.population, 0);
+
+module.exports = {
+    getTotalPopulationOfCities,
+    isSomeCityPopulationLessThen
+};
