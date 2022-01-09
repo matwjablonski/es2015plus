@@ -1,0 +1,19 @@
+{
+  "name": "es2015plus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "karma start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matwjablonski/es2015plus.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matwjablonski/es2015plus/issues"
+  },
+  "homepage": "https://github.com/matwjablonski/es2015plus#readme"
+}
